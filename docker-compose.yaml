@@ -1,0 +1,8 @@
+version: "3.8"
+
+services:
+  client:
+    image: dasdi-be:latest
+    container_name: dasdi-be
+    ports:
+      - "8090:8080"
